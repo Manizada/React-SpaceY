@@ -1,8 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
 .card {
     background-color: #FFC045;
-    height: 400px;
-    width: 400px;
+    min-height: 500px;
+    min-width: 400px;
+    max-width: 400px;
     border-radius: 6px;
+}
+
+.card img {
+    margin: auto;
+    height: 250px;
+    width: 250px;
 }
 
 .card-body {
@@ -11,6 +24,16 @@
     flex-direction: column;
     justify-content: space-between;
     border-radius: 16px 16px 6px 6px;
+}
+
+.card-body .card-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.card-body .card-text {
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .card-body a {

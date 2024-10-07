@@ -5,7 +5,7 @@ function Home() {
     return (
         <>
             <div className="container">
-                <Card photo='' tittle='Sol'/>
+                <Card photo={'/images/solpequeno.png'} photosub={'Sol'} title={'Sol'} subscription={'Não sei o que escrever mas preciso preencher este campo para testar'}/>
             </div>
         </>
     )

@@ -6,4 +6,7 @@
 
 .container {
     margin: 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
