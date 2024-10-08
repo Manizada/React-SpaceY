@@ -16,13 +16,12 @@ import NeptuneImage from "./../../assets/images/neptun.png"
 
 //import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 
 //import swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 
 function Home() {
     return (
@@ -30,15 +29,16 @@ function Home() {
             <Header/>
             <div className="container">
                 <Swiper
-                    modules={[Navigation]}
+                    modules={[Navigation, Pagination]}
                     spaceBetween={45}
                     slidesPerView={3}
                     navigation
+                    pagination={{clickable: true}}
                     loop={true}
                 >
 
                     <SwiperSlide>
-                        <Card photo={NeptuneImage} photosub={'Netuno'} title={'Netuno'} subscription={'Escuro, frio e açoitado por ventos supersônicos, o gigante Netuno é o oitavo e mais distante planeta orbitando nosso Sol. Mais de 30 vezes mais longe do Sol que a Terra, Netuno não é visível a olho nu. Em 2011, Netuno completou sua primeira órbita de 165 anos desde a sua descoberta.'}/>
+                        <Card photo={NeptuneImage} photosub={'Netuno'} title={'Netuno'} subscription={'Escuro, frio e açoitado por ventos supersônicos, o gigante Netuno é o oitavo e mais distante planeta orbitando nosso Sol. Mais de 30 vezes mais longe do Sol que a Terra, Netuno não é visível a olho nu. Em 2011, Netuno completou sua primeira órbita de 165 anos desde a sua descoberta.'} />
                     </SwiperSlide>
 
                     <SwiperSlide>
@@ -58,7 +58,7 @@ function Home() {
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <Card photo={MarsImage} photosub={'Marte'} title={'Marte'} subscription={'Marte é seco, rochoso e muito frio. O quarto planeta a partir do Sol, Marte, é um dos dois vizinhos planetários mais próximos da Terra (Vénus é o outro). Marte é um dos planetas mais fáceis de detectar no céu noturno – parece um ponto de luz vermelho brilhante.'}/>
+                        <Card photo={MarsImage} photosub={'Marte'} title={'Marte'} subscription={'Marte é seco, rochoso e muito frio. O quarto planeta a partir do Sol, Marte, é um dos dois vizinhos planetários mais próximos da Terra (Vénus é o outro). Marte é um dos planetas mais fáceis de detectar no céu noturno – parece um ponto de luz vermelho brilhante.'} />
                     </SwiperSlide>
                     
                     <SwiperSlide>

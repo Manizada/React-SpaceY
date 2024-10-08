@@ -1,10 +1,10 @@
 import './Card.css'
 
-function Card({photo, photosub, title, subscription}) {
+function Card({styles, photo, photosub, title, subscription}) {
     return (
         <>
             <div className="card">
-                <img src={photo} alt={photosub} />
+                <img src={photo} alt={photosub} style={styles}/>
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
                     <p className="card-text">{subscription}</p>
