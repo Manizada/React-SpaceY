@@ -46,7 +46,9 @@ function Home() {
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <Card photo={MercuryImage} photosub={'Mercúrio'} title={'Mercúrio'} subscription={'Mercúrio é o menor e mais interno planeta do Sistema Solar, orbitando o Sol a cada 87 dias terrestres. A sua órbita tem a maior excentricidade e o seu eixo apresenta a menor inclinação em relação ao plano da órbita dentre todos os planetas do Sistema Solar.'}/>
+                        <Card photo={MercuryImage} photosub={'Mercúrio'} title={'Mercúrio'} subscription={'Mercúrio é o menor e mais interno planeta do Sistema Solar, orbitando o Sol a cada 87 dias terrestres. A sua órbita tem a maior excentricidade e o seu eixo apresenta a menor inclinação em relação ao plano da órbita dentre todos os planetas do Sistema Solar.'} styles={{
+                            padding: 8
+                        }}/>
                     </SwiperSlide>
 
                     <SwiperSlide>
@@ -58,11 +60,15 @@ function Home() {
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <Card photo={MarsImage} photosub={'Marte'} title={'Marte'} subscription={'Marte é seco, rochoso e muito frio. O quarto planeta a partir do Sol, Marte, é um dos dois vizinhos planetários mais próximos da Terra (Vénus é o outro). Marte é um dos planetas mais fáceis de detectar no céu noturno – parece um ponto de luz vermelho brilhante.'} />
+                        <Card photo={MarsImage} photosub={'Marte'} title={'Marte'} subscription={'Marte é seco, rochoso e muito frio. O quarto planeta a partir do Sol, Marte, é um dos dois vizinhos planetários mais próximos da Terra (Vénus é o outro). Marte é um dos planetas mais fáceis de detectar no céu noturno – parece um ponto de luz vermelho brilhante.'} styles={{
+                            padding: 8
+                        }}/>
                     </SwiperSlide>
                     
                     <SwiperSlide>
-                        <Card photo={JupiterImage} photosub={'Júpiter'} title={'Júpiter'} subscription={'Júpiter é o maior planeta do Sistema Solar, e é o quinto mais próximo do Sol. Possui menos de um milésimo da massa solar, contudo tem 2,5 vezes a massa de todos os outros planetas em conjunto. É um planeta gasoso, junto com Saturno, Urano e Netuno.'}/>
+                        <Card photo={JupiterImage} photosub={'Júpiter'} title={'Júpiter'} subscription={'Júpiter é o maior planeta do Sistema Solar, e é o quinto mais próximo do Sol. Possui menos de um milésimo da massa solar, contudo tem 2,5 vezes a massa de todos os outros planetas em conjunto. É um planeta gasoso, junto com Saturno, Urano e Netuno.'} styles={{
+                            padding: 8
+                        }}/>
                     </SwiperSlide>
 
                     <SwiperSlide>
@@ -70,7 +76,9 @@ function Home() {
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <Card photo={UranusImage} photosub={'Urano'} title={'Urano'} subscription={'Urano é o sétimo planeta a partir do Sol e é o terceiro maior planeta do nosso sistema solar. Urano é um planeta muito frio e ventoso. É cercado por anéis fracos e por mais de duas dúzias de pequenas luas enquanto gira em um ângulo de quase 90 graus em relação ao plano de sua órbita.'}/>
+                        <Card photo={UranusImage} photosub={'Urano'} title={'Urano'} subscription={'Urano é o sétimo planeta a partir do Sol e é o terceiro maior planeta do nosso sistema solar. Urano é um planeta muito frio e ventoso. É cercado por anéis fracos e por mais de duas dúzias de pequenas luas enquanto gira em um ângulo de quase 90 graus em relação ao plano de sua órbita.'} styles={{
+                            width: 300
+                        }}/>
                     </SwiperSlide>
 
                 </Swiper>
