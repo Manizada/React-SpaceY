@@ -16,7 +16,7 @@ import NeptuneImage from "./../../assets/images/neptun.png"
 
 //import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination, Keyboard } from 'swiper/modules';
 
 //import swiper styles
 import 'swiper/css';
@@ -29,10 +29,11 @@ function Home() {
             <Header/>
             <div className="container">
                 <Swiper
-                    modules={[Navigation, Pagination]}
+                    modules={[Navigation, Pagination, Keyboard]}
                     spaceBetween={45}
                     slidesPerView={3}
                     navigation
+                    keyboard
                     pagination={{clickable: true}}
                     loop={true}
                 >
